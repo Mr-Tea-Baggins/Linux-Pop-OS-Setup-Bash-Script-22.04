@@ -313,7 +313,7 @@ function f_connect_nord {
 }
 
 function f_startup {
-    sudo cp ~/Documents/startup-entries/ ~/.config/autostart/
+    sudo cp ~/Documents/*.desktop ~/.config/autostart/
 }
 
 function f_starship {
