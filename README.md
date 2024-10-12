@@ -1,4 +1,4 @@
-# Pop_OS_Bash_Setup_Script
+# Linux Pop OS Setup Bash Script 22.04
 
 A fairly comprehensive and long setup script for getting the best usable Linux Pop OS desktop system setup on 22.04.
 
@@ -9,8 +9,8 @@ A fairly comprehensive and long setup script for getting the best usable Linux P
 
 **To use:**
 
-- Fresh Pop OS install on system 22.04 only
-- Download the pop_config.sh file in this repository
+- Install Pop OS 22.04 on your PC
+- Download the <a>pop</a>pop_config.sh https://github.com/Mr-Tea-Baggins/Linux-Pop-OS-Setup-Bash-Script-22.04/blob/main/pop_config.sh file in this repository
 - chmod +x pop_config.sh
 - run with ./pop_config.sh
 - The script will take you through setting up your machine
