@@ -17,4 +17,4 @@ A fairly comprehensive setup script for getting the most usable Linux Pop OS des
 - run script with ./pop_config.sh
 - The script will run taking you through setting up your machine, loading apps etc
 
-**All feedbadck greatfully received**, thanks.
+**All feedback greatfully received**, thanks.
