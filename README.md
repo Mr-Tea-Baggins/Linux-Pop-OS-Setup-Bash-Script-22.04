@@ -10,9 +10,11 @@ A fairly comprehensive and long setup script for getting the best usable Linux P
 **To use:**
 
 - Install Pop OS 22.04 on your PC
-- Download the <a>pop</a>pop_config.sh https://github.com/Mr-Tea-Baggins/Linux-Pop-OS-Setup-Bash-Script-22.04/blob/main/pop_config.sh file in this repository
+- Download the [pop_config.sh](https://github.com/Mr-Tea-Baggins/Linux-Pop-OS-Setup-Bash-Script-22.04/blob/main/pop_config.sh) file from this repository
+- **(Review / Alter as required)**
+- Load Terminal window
 - chmod +x pop_config.sh
-- run with ./pop_config.sh
+- run script with ./pop_config.sh
 - The script will take you through setting up your machine
 
 **All feedbadck greatfully received**, thanks.
