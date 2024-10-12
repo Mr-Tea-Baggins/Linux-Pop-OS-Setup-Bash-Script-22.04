@@ -347,12 +347,12 @@ EOF
 }
 
 function f_monitor_apps {
-    # following section allows login screen to appear on screen 2 solely
+    # following section allows login screen to appear on screen 2 (external display only) solely
     echo -e "${RED}ensure screen is setup to show solely on screen 2 before continuing"
     echo -e "${NC}"
     read
-    sudo cp ~/.config/monitors.xml /var/lib/gdm3/.config/monitors.xml
-    sudo chown gdm:gdm /var/lib/gdm3/.config/monitors.xml
+    sudo cp ~/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
+    sudo chown gdm:gdm /var/lib/gdm/.config/monitors.xml
     echo -e "${GREEN}command completed${NC}"
     f_play_alert
 }
