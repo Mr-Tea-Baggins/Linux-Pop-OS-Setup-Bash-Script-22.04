@@ -1,4 +1,4 @@
-# Linux Pop OS Setup Bash Script 22.04
+# Linux Pop OS (22.04) Setup Bash Script
 
 A fairly comprehensive setup script for getting the most usable Linux Pop OS desktop system setup using 22.04.  The aim being to reduce the amount of time to freshly install and configure Pop OS.
 
