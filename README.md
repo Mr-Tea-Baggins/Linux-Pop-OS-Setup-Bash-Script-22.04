@@ -14,7 +14,7 @@ A fairly comprehensive setup script for getting the most usable Linux Pop OS des
 - Install Linux [Pop OS 22.04](https://pop.system76.com/) on your PC (choose Download button)
 - Download all the files in the **Pop OS scripts** repository, and move the files out to your Documents folder
 
-- **(Review / Alter the [pop_config.sh](https://github.com/Mr-Tea-Baggins/Linux-Pop-OS-Setup-Bash-Script-22.04/blob/main/Pop OS scripts/pop_config.sh) file as required)**
+- **(Review / Alter the [pop_config.sh]("https://github.com/Mr-Tea-Baggins/Linux-Pop-OS-Setup-Bash-Script-22.04/blob/main/Pop OS scripts/pop_config.sh") file as required)**
 - Add your bluetooth speaker MAC Address to **recon_bt.sh** and **pre-suspend.sh** files
 - then load Terminal window
 - run: 'chmod +x pop_config.sh'
