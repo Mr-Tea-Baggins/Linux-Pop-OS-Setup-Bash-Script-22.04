@@ -3,13 +3,18 @@
 # Set your Bluetooth device MAC address
 DEVICE_MAC="" ########## ADD your speaker device's MAC address
 
-# Initial reconnect check
-if echo "connect $DEVICE_MAC" | bluetoothctl | grep -q "Connection successful"; then
-   exit
+# Attempt connection
+echo -e "connect $DEVICE_MAC\nquit" | bluetoothctl > null
+# Add a short delay to give time for connection attempt
+sleep 1
+# Check if the device is connected
+if echo -e "info $DEVICE_MAC\nquit" | bluetoothctl | grep -q "Connected: yes"; then
+    echo "Connection successful"
+    exit 0
 fi
 
 # Set the maximum wait time (in seconds) for reconnection
-MAX_WAIT=30
+MAX_WAIT=120
 WAIT_INTERVAL=2
 TOTAL_WAIT=0
 
@@ -30,9 +35,6 @@ echo "Waiting for a moment before attempting to reconnect..."
 sleep 1
 
 echo "Device removed successfully."
-
-# Start the repair process
-echo "Starting Bluetooth repair process for device: $DEVICE_MAC"
 
 # Start scanning for devices
 bluetoothctl --timeout $MAX_WAIT scan on &
